@@ -12,6 +12,7 @@ class Yuck < Formula
   depends_on :automake
   depends_on :autoconf
   depends_on :libtool
+  depends_on 'pkg-config'
 
   head do
     url 'https://github.com/hroptatyr/yuck.git', :branch => 'master'
