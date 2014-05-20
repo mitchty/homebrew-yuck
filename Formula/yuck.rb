@@ -4,9 +4,9 @@ require 'formula'
 
 class Yuck < Formula
   homepage 'http://fresse.org/yuck'
-  version '0.1.6'
+  version '0.1.7'
   url "https://github.com/hroptatyr/yuck/releases/download/v#{version}/yuck-#{version}.tar.xz"
-  sha1 'cbdcb6893c28a54f9789026d2d6c2f8cc0921270'
+  sha1 '5ecba0f0c20f3813b1f418066723dd6c512df097'
   depends_on 'xz'
 
   depends_on :automake
